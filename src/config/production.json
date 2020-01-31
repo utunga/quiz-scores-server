@@ -1,0 +1,11 @@
+{
+  "host": "quiz-scores-api.herokuapp.com/",
+  "port": "PORT",
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  // see MONGODB_URI aka 
+  // heroku config:get MONGODB_URI
+}
