@@ -5,7 +5,9 @@ const helmet = require('helmet');
 const cors = require('cors');
 const logger = require('./logger');
 
+
 const feathers = require('@feathersjs/feathers');
+const findOne = require('feathers-findone')
 process.env['NODE_CONFIG_DIR'] = path.join(__dirname, 'config/');
 const configuration = require('@feathersjs/configuration');
 const express = require('@feathersjs/express');
@@ -23,6 +25,8 @@ const app = express(feathers());
 
 // Load app configuration
 app.configure(configuration());
+app.configure(findOne())
+
 // Enable security, CORS, compression, favicon and body parsing
 app.use(helmet());
 app.use(cors());

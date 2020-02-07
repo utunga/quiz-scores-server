@@ -6,6 +6,7 @@
     "default": 10,
     "max": 50
   },
-  // see MONGODB_URI aka 
+  // MONGO DB has been configured using Heroku Web UI 
+  // see MONGODB_URI env varible - aka 
   // heroku config:get MONGODB_URI
 }
