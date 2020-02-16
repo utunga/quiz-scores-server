@@ -1,6 +1,6 @@
 {
-  "name": "faction-claims-server",
-  "description": "FeathersJS Faction Claims server",
+  "name": "quiz-scores-server",
+  "description": "FeathersJS Quiz Scores server",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -12,9 +12,6 @@
     "feathers"
   ],
   "author": "utunga <utunga@gmail.com>",
-  "contributors": [
-    "Will Murray <willdavidmurray@gmail.com>"
-  ],
   "directories": {
     "lib": "src",
     "test": "test"
